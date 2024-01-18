@@ -1,0 +1,136 @@
+-------------------------------------
+Result for future 1 day(s):
+    - Lazy Predictor - Train MSE: 0.00018142871257297868
+    - Lazy Predictor - Test MSE: 9.931977951787237e-05
+Best model for config 1: RandomForestRegressor(max_depth=2, max_features=1, min_samples_leaf=20,
+                      n_estimators=500, random_state=0)
+    - Config 1 - Train MSE: 0.0001708459388551773
+    - Config 1 - Test MSE: 0.00010767161615525378
+     - Config 1 - Feature Importance: 
+num_csr_sentences    0.472258
+sentiment_score      0.527742
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=4, max_features=2, min_samples_leaf=20,
+                      n_estimators=50, random_state=0)
+    - Config 2 - Train MSE: 0.00016300179688179373
+    - Config 2 - Test MSE: 8.513703486299724e-05
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.116417
+hist_7_day_return     0.247009
+hist_30_day_return    0.283995
+hist_60_day_return    0.352580
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=20,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.00016886481604897046
+    - Config 3 - Test MSE: 9.140594333945398e-05
+     - Config 3 - Feature Importance: 
+num_csr_sentences     0.133220
+sentiment_score       0.170375
+hist_1_day_return     0.082739
+hist_7_day_return     0.129728
+hist_30_day_return    0.233439
+hist_60_day_return    0.250499
+dtype: float64
+-------------------------------------
+Result for future 7 day(s):
+    - Lazy Predictor - Train MSE: 0.0006279501974844426
+    - Lazy Predictor - Test MSE: 0.00045865971110932576
+Best model for config 1: RandomForestRegressor(max_features=1, min_samples_leaf=20, n_estimators=50,
+                      random_state=0)
+    - Config 1 - Train MSE: 0.0005867395727347164
+    - Config 1 - Test MSE: 0.000470238568849873
+     - Config 1 - Feature Importance: 
+num_csr_sentences    0.525995
+sentiment_score      0.474005
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, n_estimators=50,
+                      random_state=0)
+    - Config 2 - Train MSE: 0.0005451305971369299
+    - Config 2 - Test MSE: 0.0003963394552017991
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.212111
+hist_7_day_return     0.284164
+hist_30_day_return    0.271771
+hist_60_day_return    0.231954
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_depth=2, max_features=2, n_estimators=200,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.0005497105401951628
+    - Config 3 - Test MSE: 0.0003931975412495078
+     - Config 3 - Feature Importance: 
+num_csr_sentences     0.059812
+sentiment_score       0.076277
+hist_1_day_return     0.219659
+hist_7_day_return     0.246467
+hist_30_day_return    0.244878
+hist_60_day_return    0.152907
+dtype: float64
+-------------------------------------
+Result for future 30 day(s):
+    - Lazy Predictor - Train MSE: 0.003009873898672213
+    - Lazy Predictor - Test MSE: 0.003430694073482765
+Best model for config 1: RandomForestRegressor(max_depth=2, max_features=1, n_estimators=500,
+                      random_state=0)
+    - Config 1 - Train MSE: 0.0027890762551225977
+    - Config 1 - Test MSE: 0.0035117195367152503
+     - Config 1 - Feature Importance: 
+num_csr_sentences    0.489299
+sentiment_score      0.510701
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=2,
+                      n_estimators=50, random_state=0)
+    - Config 2 - Train MSE: 0.002723819916818316
+    - Config 2 - Test MSE: 0.0032457030264030355
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.178046
+hist_7_day_return     0.222746
+hist_30_day_return    0.326702
+hist_60_day_return    0.272506
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_depth=2, max_features=2, n_estimators=500,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.002699965920509967
+    - Config 3 - Test MSE: 0.0033006251248196587
+     - Config 3 - Feature Importance: 
+num_csr_sentences     0.115847
+sentiment_score       0.124123
+hist_1_day_return     0.156458
+hist_7_day_return     0.210515
+hist_30_day_return    0.186484
+hist_60_day_return    0.206574
+dtype: float64
+-------------------------------------
+Result for future 60 day(s):
+    - Lazy Predictor - Train MSE: 0.0058166369799924995
+    - Lazy Predictor - Test MSE: 0.003765495741902197
+Best model for config 1: RandomForestRegressor(max_depth=3, max_features=1, min_samples_leaf=15,
+                      n_estimators=500, random_state=0)
+    - Config 1 - Train MSE: 0.0052558457355638905
+    - Config 1 - Test MSE: 0.00402206039038799
+     - Config 1 - Feature Importance: 
+num_csr_sentences    0.478443
+sentiment_score      0.521557
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=18,
+                      n_estimators=200, random_state=0)
+    - Config 2 - Train MSE: 0.005377654779698796
+    - Config 2 - Test MSE: 0.0036031341455936765
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.158602
+hist_7_day_return     0.230819
+hist_30_day_return    0.187491
+hist_60_day_return    0.423088
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_features=2, min_samples_leaf=20, n_estimators=500,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.005100346096510014
+    - Config 3 - Test MSE: 0.0035758835904292083
+     - Config 3 - Feature Importance: 
+num_csr_sentences     0.121526
+sentiment_score       0.161495
+hist_1_day_return     0.130626
+hist_7_day_return     0.179471
+hist_30_day_return    0.137162
+hist_60_day_return    0.269720
+dtype: float64

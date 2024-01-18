@@ -1,0 +1,167 @@
+-------------------------------------
+Result for future 1 day(s):
+    - Lazy Predictor - Train MSE: 0.00018142871257297868
+    - Lazy Predictor - Test MSE: 9.931977951787237e-05
+Best model for config 1: RandomForestRegressor(max_features=2, min_samples_leaf=20, random_state=0)
+    - Config 1 - Train MSE: 0.00016069144879909603
+    - Config 1 - Test MSE: 0.00010831647461859146
+     - Config 1 - Feature Importance: 
+num_environment_sentences      0.168402
+environment_sentiment_score    0.127690
+num_social_sentences           0.220185
+social_sentiment_score         0.124272
+num_economy_sentences          0.213079
+economy_sentiment_score        0.146372
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=4, max_features=2, min_samples_leaf=20,
+                      n_estimators=50, random_state=0)
+    - Config 2 - Train MSE: 0.00016300179688179373
+    - Config 2 - Test MSE: 8.513703486299724e-05
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.116417
+hist_7_day_return     0.247009
+hist_30_day_return    0.283995
+hist_60_day_return    0.352580
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_features=4, min_samples_leaf=18, n_estimators=50,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.00015467712103092553
+    - Config 3 - Test MSE: 9.138626562905946e-05
+     - Config 3 - Feature Importance: 
+num_environment_sentences      0.090931
+environment_sentiment_score    0.080266
+num_social_sentences           0.097018
+social_sentiment_score         0.095954
+num_economy_sentences          0.078573
+economy_sentiment_score        0.041486
+hist_1_day_return              0.053012
+hist_7_day_return              0.132463
+hist_30_day_return             0.136267
+hist_60_day_return             0.194031
+dtype: float64
+-------------------------------------
+Result for future 7 day(s):
+    - Lazy Predictor - Train MSE: 0.0006279501974844426
+    - Lazy Predictor - Test MSE: 0.00045865971110932576
+Best model for config 1: RandomForestRegressor(max_depth=4, max_features=4, min_samples_leaf=20,
+                      n_estimators=200, random_state=0)
+    - Config 1 - Train MSE: 0.0005508881253920944
+    - Config 1 - Test MSE: 0.00043001679639048006
+     - Config 1 - Feature Importance: 
+num_environment_sentences      0.166353
+environment_sentiment_score    0.192947
+num_social_sentences           0.187746
+social_sentiment_score         0.214541
+num_economy_sentences          0.114918
+economy_sentiment_score        0.123494
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, n_estimators=50,
+                      random_state=0)
+    - Config 2 - Train MSE: 0.0005451305971369299
+    - Config 2 - Test MSE: 0.0003963394552017991
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.212111
+hist_7_day_return     0.284164
+hist_30_day_return    0.271771
+hist_60_day_return    0.231954
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_features=2, min_samples_leaf=20, n_estimators=200,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.0005555194761956473
+    - Config 3 - Test MSE: 0.0004278399786726607
+     - Config 3 - Feature Importance: 
+num_environment_sentences      0.087768
+environment_sentiment_score    0.099784
+num_social_sentences           0.085255
+social_sentiment_score         0.102830
+num_economy_sentences          0.068235
+economy_sentiment_score        0.081537
+hist_1_day_return              0.123522
+hist_7_day_return              0.100364
+hist_30_day_return             0.086399
+hist_60_day_return             0.164305
+dtype: float64
+-------------------------------------
+Result for future 30 day(s):
+    - Lazy Predictor - Train MSE: 0.003009873898672213
+    - Lazy Predictor - Test MSE: 0.003430694073482765
+Best model for config 1: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=20,
+                      n_estimators=500, random_state=0)
+    - Config 1 - Train MSE: 0.002821267785077817
+    - Config 1 - Test MSE: 0.0034456554344866152
+     - Config 1 - Feature Importance: 
+num_environment_sentences      0.153251
+environment_sentiment_score    0.199444
+num_social_sentences           0.176099
+social_sentiment_score         0.175489
+num_economy_sentences          0.110831
+economy_sentiment_score        0.184887
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=2,
+                      n_estimators=50, random_state=0)
+    - Config 2 - Train MSE: 0.002723819916818316
+    - Config 2 - Test MSE: 0.0032457030264030355
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.178046
+hist_7_day_return     0.222746
+hist_30_day_return    0.326702
+hist_60_day_return    0.272506
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_depth=2, max_features=4, n_estimators=50,
+                      random_state=0)
+    - Config 3 - Train MSE: 0.002650726526330763
+    - Config 3 - Test MSE: 0.0032496107268030093
+     - Config 3 - Feature Importance: 
+num_environment_sentences      0.138490
+environment_sentiment_score    0.083853
+num_social_sentences           0.077991
+social_sentiment_score         0.057031
+num_economy_sentences          0.047917
+economy_sentiment_score        0.045219
+hist_1_day_return              0.058592
+hist_7_day_return              0.152740
+hist_30_day_return             0.146028
+hist_60_day_return             0.192139
+dtype: float64
+-------------------------------------
+Result for future 60 day(s):
+    - Lazy Predictor - Train MSE: 0.0058166369799924995
+    - Lazy Predictor - Test MSE: 0.003765495741902197
+Best model for config 1: RandomForestRegressor(max_depth=4, max_features=6, n_estimators=50,
+                      random_state=0)
+    - Config 1 - Train MSE: 0.0038781212499319558
+    - Config 1 - Test MSE: 0.0038124340316400907
+     - Config 1 - Feature Importance: 
+num_environment_sentences      0.110529
+environment_sentiment_score    0.142751
+num_social_sentences           0.146917
+social_sentiment_score         0.222386
+num_economy_sentences          0.140269
+economy_sentiment_score        0.237148
+dtype: float64
+Best model for config 2: RandomForestRegressor(max_depth=2, max_features=2, min_samples_leaf=18,
+                      n_estimators=200, random_state=0)
+    - Config 2 - Train MSE: 0.005377654779698796
+    - Config 2 - Test MSE: 0.0036031341455936765
+     - Config 2 - Feature Importance: 
+hist_1_day_return     0.158602
+hist_7_day_return     0.230819
+hist_30_day_return    0.187491
+hist_60_day_return    0.423088
+dtype: float64
+Best model for config 3: RandomForestRegressor(max_depth=4, max_features=2, min_samples_leaf=15,
+                      n_estimators=500, random_state=0)
+    - Config 3 - Train MSE: 0.004894233976797111
+    - Config 3 - Test MSE: 0.0035505341015530747
+     - Config 3 - Feature Importance: 
+num_environment_sentences      0.091043
+environment_sentiment_score    0.093124
+num_social_sentences           0.078306
+social_sentiment_score         0.086670
+num_economy_sentences          0.064408
+economy_sentiment_score        0.104344
+hist_1_day_return              0.080181
+hist_7_day_return              0.113711
+hist_30_day_return             0.088227
+hist_60_day_return             0.199986
+dtype: float64
